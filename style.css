@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+2:wght@400..800&family=Baloo+Bhai+2:wght@400..800&family=Balsamiq+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Martel+Sans:wght@200;300;400;600;700;800;900&family=Noto+Sans+Mono:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "Baloo Bhai 2", sans-serif;
+    background-color: black;
+}
+
+.container{
+    max-width: 30vw;
+    min-height: 10vh;
+    background-color: rgba(156, 156, 150, 0.682);
+    margin: 12% auto;
+    border-radius: 30px;
+}
+
+.content{
+    padding: 12%;
+    text-align: center;
+}
+
+.content h2{
+    font-size: 22px;
+}
+
+.inputfield{
+    width: 100%;
+    height: 5vh;
+    margin-top: 10%;
+    padding: 10px;
+    border: none;
+    outline: none;
+    font-size: 15px;
+    border-radius: 10px;
+}
+
+#btn{
+    margin-top: 10%;
+    padding: 10px;
+    border: none;
+    outline: none;
+    font-size: 15px;
+    background-color: rgb(129, 129, 223);
+    border-radius: 20px;
+    width: 100%;
+}
+
+#img-box{
+    width: 200px;
+    /* margin-top: 20px; */
+    border-radius: 5px;
+    max-height:0;
+    overflow: hidden;
+    transition: max-height 1s;
+}
+
+#qrimg{
+    width: 100%;
+    padding: 10px;
+}
+
+#img-box.show-img{
+    max-height: 300px;
+    margin: 10px auto;
+}
