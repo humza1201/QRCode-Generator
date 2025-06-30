@@ -11,8 +11,8 @@ body{
 }
 
 .container{
-    max-width: 30vw;
-    min-height: 10vh;
+    max-width: 500px;
+    min-height: 200px;
     background-color: rgba(156, 156, 150, 0.682);
     margin: 12% auto;
     border-radius: 30px;
